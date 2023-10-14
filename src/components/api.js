@@ -1,5 +1,5 @@
 export const api=async(query)=>{
-    const data = await fetch('https://powerai-app.onrender.com/',{
+    const data = await fetch('https://powerai-apxp.onrender.com/',{
         method:'POST',
         headers:{
         'Content-Type' : 'application/json'

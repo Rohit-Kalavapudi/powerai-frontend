@@ -13,7 +13,7 @@ import { api } from '../components/api';
 
 
 export const NoteState = ({children}) =>{
-    const host = "https://powerai-app.onrender.com/"
+    const host = "https://powerai-app.onrender.com"
     const notesInitial = []
     if(localStorage.getItem('token')==null)
     {
